@@ -181,7 +181,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="text-center mt-40">
-                    <a href="#" class="btn btn-primary">Todos los destinos</a>
+                <a href="{{ asset('/destinos') }}" class="btn btn-primary">Todos los destinos</a>
                 </div>
             </div>
         </div>
