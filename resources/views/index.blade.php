@@ -1,5 +1,4 @@
-@extends('layouts.main')
-@section('contenido')
+@extends('layouts.main') @section('contenido')
 
 <!-- start banner -->
 <section class="carousel slide" id="banner" data-ride="carousel" data-pause="false">
@@ -14,7 +13,8 @@
                             <div class="hero-text full-image">
                                 <h6 class="animated fadeInDown">AG Representations</h6>
                                 <h1 class="animated fadeInUp">Travel Marketing</h1>
-                                <p class="animated fadeInUp">En AG Representations estamos a la vanguardia, es por eso que contamos con las plataformas adecuadas de IT que nos ayudan a gestionar toda la información necesaria para un excelente servicio: Sitio Web • E-mail Marketing • MSM Masivo • Mensajes masivos por Whatsapp.</p>
+                                <p class="animated fadeInUp">En AG Representations estamos a la vanguardia, es por eso que contamos con las plataformas adecuadas de IT que nos ayudan a gestionar toda la información necesaria para un excelente servicio: Sitio Web • E-mail Marketing
+                                    • MSM Masivo • Mensajes masivos por Whatsapp.</p>
                                 <a href="#" class="btn btn-primary animated fadeInUp">Contactanos</a>
                             </div>
                         </div>
@@ -69,11 +69,11 @@
 <!-- end banner -->
 
 {{-- BOTONES --}}
-<section class="section-btn-spacing">
+<section class="section-spacing-text">
     <div class="container">
         <div class="row">
             <div class="col-md-6 wow fadeInLeft">
-            <a href="{{ asset('/quienes-somos') }}">
+                <a href="{{ asset('/quienes-somos') }}">
                     <div class="img-cont quienes-somos lineas">
                         <h2><span>Quienes somos</span></h2>
                     </div>
@@ -97,7 +97,7 @@
             <div class="col-md-12">
                 <div class="section-title text-center">
                     <h2><span>Destinos Populares</span></h2>
-                    <p>AG Travel Destinations representa asociados en todos los destinos de América…solo imagine donde quiere ir y ahí lo llevaremos.</p>
+                    <p>AG Travel Destinations representa proveedores de servicios turísticos en todos los destinos de América...solo imagine donde quiere ir y ahí lo llevaremos.</p>
                 </div>
             </div>
         </div>
@@ -181,7 +181,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="text-center mt-40">
-                <a href="{{ asset('/destinos') }}" class="btn btn-primary">Todos los destinos</a>
+                    <a href="{{ asset('/destinos') }}" class="btn btn-primary">Todos los destinos</a>
                 </div>
             </div>
         </div>
@@ -189,7 +189,7 @@
     </div>
 </section>
 <!-- end destination -->
- 
+
 <!--ALOJAMIENTOS-->
 <section class="section-spacing">
     <div class="container">
@@ -197,7 +197,7 @@
             <div class="col-md-12">
                 <div class="section-title text-center">
                     <h2><span>Alojamientos</span></h2>
-                    <p>Hospedajes Rurales, Lodges, Haciendas, Estancias, Resort, Hoteles Boutique o temáticos…AG Travel Representations los representa, excelencia en alojamiento exclusivos.</p>
+                    <p>Hospedajes Rurales, Lodges, Haciendas, Estancias, Resort, Hoteles Boutique o temáticos…AG Travel Representations los representa, excelencia en alojamientos exclusivos.</p>
                 </div>
             </div>
         </div>
@@ -266,12 +266,13 @@
                 <form action="#">
                     <div class="row">
                         <div class="col-md-8">
-                            <input type="email" class="form-control" placeholder="Ingrese su Email" style="margin-top:10px;">
-                            <small>Acepto las <a href="#" style="color: #089000;">políticas de seguridad</a>. <input type="checkbox" name="politicas" checked></small>
+                            <input type="hidden" id="csrf" value="{{ csrf_token() }}">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Ingrese su Email" style="margin-top:10px;">
+                            <small>Acepto las <a href="#" style="color: #089000;">políticas de seguridad</a>. <input type="checkbox" id="chkPoliticas" name="politicas" checked></small>
                         </div>
 
                         <div class="col-md-4">
-                            <button type="submit" class="btn btn-primary mt10 btn-block">Suscribirme</button>
+                            <button type="submit" id="btnSuscribirme" class="btn btn-primary mt10 btn-block">Suscribirme</button>
                         </div>
                     </div>
                 </form>
@@ -324,4 +325,7 @@
     </div>
 </section>
 
+@endsection @section('js')
+<script src="{{ asset('js/notify.min.js') }}"></script>
+<script src="{{ asset('js/suscripcion.js') }}"></script>
 @endsection

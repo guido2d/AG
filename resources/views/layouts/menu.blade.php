@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-white">
+<nav class="navbar navbar-expand-lg bg-white @if(Request::is('noticia/*')) boder-bottom-green @endif">
     <div class="container">
         <a class="navbar-brand" href="/">
             <img src="{{ asset('img/ag.png') }}" alt="Logo" width="60">
@@ -25,7 +25,7 @@
                     <a class="nav-link" href="{{ asset('servicios') }}">Servicios</a>
                 </li>
                 <li class="nav-item @if(Request::is('blog')) active @endif">
-                    <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="{{ asset('/blog') }}">Blog</a>
                 </li>
                 <li class="nav-item @if(Request::is('contacto')) active @endif">
                 <a class="nav-link" href="{{ asset('/contacto') }}">Contacto</a>

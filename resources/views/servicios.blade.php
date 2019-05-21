@@ -47,7 +47,7 @@
                         <img src="img/icons/relaciones_publicas.svg" alt="">
                     </div>
                     <h3>Relaciones Públicas</h3>
-                    <p>Creativas e innovadoras campañas de relaciones publicas en turismo. Amplia cobertura: prensa, online y de difusión.</p>
+                    <p>Creativas e innovadoras campañas de relaciones públicas en turismo. Amplia cobertura: prensa, online y de difusión.</p>
                 </div>
             </div>
 
