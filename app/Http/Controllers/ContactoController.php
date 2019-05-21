@@ -41,7 +41,7 @@ class ContactoController extends Controller
 
         $suscripcion = Suscriptor::where('email', $email)->first();
 
-        if(sizeOf($suscripcion) === 0){
+        if(empty($suscripcion)){
             $newSus = new Suscriptor;
             $newSus->email = $email;
             $newSus->save();

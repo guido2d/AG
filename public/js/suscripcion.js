@@ -42,6 +42,11 @@ btnSuscripcion.on('click', (accion) => {
 
         request.fail((err, txt) => {
             console.log('Error en la petición: ', txt);
+            txtEmail.notify(
+                'Ups, ocurrió un error. Por favor intentenlo nuevamente.', {
+                    position: "top",
+                }
+            );
         });
     }
 
