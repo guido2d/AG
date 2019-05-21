@@ -52,14 +52,14 @@ class HomeController extends Controller
         $new->image = $nuevo_nombre;
         $new->save();
         
-        return redirect('/admin')->with('correcto', 'La noticia se ha guardado correctamente.');
+        return redirect('/admin/blog')->with('correcto', 'La noticia se ha guardado correctamente.');
     }
     
     public function deleteNews($id){
         
         $prod = Blog::where('id', $id)->delete();
         
-        return redirect('/admin')->with('correcto', 'La noticia se ha eliminado correctamente.');
+        return redirect('/admin/blog')->with('correcto', 'La noticia se ha eliminado correctamente.');
         
     }
     
@@ -97,6 +97,6 @@ class HomeController extends Controller
         $new->image = $nombre;
         $new->save();
         
-        return redirect('/admin')->with('correcto', 'La noticia se ha actualizado correctamente.');
+        return redirect('/admin/blog')->with('correcto', 'La noticia se ha actualizado correctamente.');
     }
 }

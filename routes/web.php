@@ -26,7 +26,7 @@ Route::get('logout', function(){
 Route::get('/admin', 'HomeController@index');
 Route::get('/admin/blog', 'HomeController@listBlog');
 Route::view('/admin/blog/nueva-noticia', 'admin.nueva-noticia');
-Route::post('/admin/blog/uardar-noticia', 'HomeController@saveNews');
+Route::post('/admin/blog/guardar-noticia', 'HomeController@saveNews');
 Route::get('/admin/blog/eliminar-noticia/{id}', 'HomeController@deleteNews');
 Route::get('/admin/blog/editar-noticia/{id}', 'HomeController@editNews');
 Route::post('/admin/blog/actualizar-noticia', 'HomeController@updateNews');
