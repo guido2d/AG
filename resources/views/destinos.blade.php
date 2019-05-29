@@ -3,7 +3,7 @@
 @section('contenido')
 
 <!--HEADER SECTION-->
-<section class="inner-page-banner" style="background-image:url(img/banner/destinos-banner.png)">
+<section class="inner-page-banner" style="background-image:url(img/banner/destinos-banner.jpg)">
     <div class="page-banner-caption">
         <div class="container">
             <div class="row wow fadeInLeft">
@@ -25,7 +25,7 @@
                 <div class="col-xl-6">
                     <div class="about-text wow fadeInLeft">
                         <h2>América</h2>
-                        <p>América es el segundo continente más grande de la Tierra, destinos exóticos…culturas milenarias…bellezas naturales. Posee Montañas, desiertos, selvas, bosques, mares y ríos. Todo por ser descubierto. Representamos a los mejores proveedores de servicios…solo debes elegir el destino y AG Travel Representations te pondrá en contacto con nuestros Asociados expertos en el mismo.</p>
+                        <p>América es el segundo continente más grande de la Tierra...destinos exóticos...culturas milenarias...bellezas naturales. Posee bosques, desiertos, montañas, selvas, mares y rios...todo por ser descubierto. AG Travel Representations representa a los mejores proveedores de servicios turísticos en cada uno de estos destinos.</p>
                     </div>
                 </div>
                 <div class="col-xl-6">

@@ -1283,6 +1283,7 @@ section {
     transition: all 0.4s ease-in-out;
     width: 100%;
     height: auto;
+    max-height: 201px;
 }
 
 .news-block:hover img {

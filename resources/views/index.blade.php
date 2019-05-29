@@ -5,15 +5,15 @@
     <div class="carousel-inner">
 
         <!--SLIDE 1-->
-        <div class="carousel-item active" style="background-image:url(img/banner/slide1.png)">
+        <div class="carousel-item active" style="background-image:url(img/banner/slide1.jpg)">
             <div class="banner-caption">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="hero-text full-image">
-                                <h6 class="animated fadeInDown">AG Representations</h6>
+                                <h6 class="animated fadeInDown">AG Travel Representations</h6>
                                 <h1 class="animated fadeInUp">Travel Marketing</h1>
-                                <p class="animated fadeInUp">En AG Representations estamos a la vanguardia, es por eso que contamos con las plataformas adecuadas de IT que nos ayudan a gestionar toda la información necesaria para un excelente servicio: Sitio Web • E-mail Marketing
+                                <p class="animated fadeInUp">En AG Travel Representations estamos a la vanguardia, es por eso que contamos con las plataformas adecuadas de IT que nos ayudan a gestionar toda la información necesaria para un excelente servicio: Sitio Web • E-mail Marketing
                                     • MSM Masivo • Mensajes masivos por Whatsapp.</p>
                                 <a href="#" class="btn btn-primary animated fadeInUp">Contactanos</a>
                             </div>
@@ -24,13 +24,13 @@
         </div>
 
         <!--SLIDE 2-->
-        <div class="carousel-item" style="background-image:url(img/banner/slide2.png)">
+        <div class="carousel-item" style="background-image:url(img/banner/slide2.jpg)">
             <div class="banner-caption">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="hero-text full-image">
-                                <h6 class="animated fadeInLeft">AG Representations</h6>
+                                <h6 class="animated fadeInLeft">AG Travel Representations</h6>
                                 <h1 class="animated fadeInLeft">Cobertura Global</h1>
                                 <p class="animated fadeInLeft">Seleccionamos los mejores operadores en los principales destinos. Receptivos en español para el mercado de España.</p>
                                 <a href="#" class="btn btn-primary animated fadeInLeft">Contactanos</a>
@@ -42,13 +42,13 @@
         </div>
 
         <!--SLIDE 3-->
-        <div class="carousel-item" style="background-image:url(img/banner/slide3.png)">
+        <div class="carousel-item" style="background-image:url(img/banner/slide3.jpg)">
             <div class="banner-caption">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="hero-text full-image">
-                                <h6 class="animated fadeInLeft">AG Representations</h6>
+                                <h6 class="animated fadeInLeft">AG Travel Representations</h6>
                                 <h1 class="animated fadeInRight">Experiencias Extraordinarias</h1>
                                 <p class="animated fadeInRight">Experiencias únicas en destinos extraordinarios. Encuentra el destino que más te guste y conviértela en una experiencia única.</p>
                                 <a href="#" class="btn btn-primary animated fadeInRight">Contactanos</a>
@@ -97,7 +97,7 @@
             <div class="col-md-12">
                 <div class="section-title text-center">
                     <h2><span>Destinos Populares</span></h2>
-                    <p>AG Travel Destinations representa proveedores de servicios turísticos en todos los destinos de América...solo imagine donde quiere ir y ahí lo llevaremos.</p>
+                    <p>AG Travel Representations representa proveedores de servicios turísticos en todos los destinos de América...solo imagine donde quiere ir y ahí lo llevaremos.</p>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@
 @section('contenido')
 
 <!--HEADER SECTION-->
-<section class="inner-page-banner" style="background-image:url(img/banner/contacto-banner.png)">
+<section class="inner-page-banner" style="background-image:url(img/banner/contacto-banner.jpg)">
     <div class="page-banner-caption">
         <div class="container">
             <div class="row wow fadeInLeft">

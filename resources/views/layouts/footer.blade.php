@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-6">
                     <div class="copyright">
-                        <p>&copy; 2019 AG Representations | Aviso legal</p>
+                        <p>&copy; 2019 AG Travel Representations | Aviso legal</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6">

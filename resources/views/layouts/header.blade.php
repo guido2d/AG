@@ -4,7 +4,7 @@
 <meta name="description" content="">
 <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-<title>AG Representations</title>
+<title>AG Travel Representations</title>
 <!--<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">-->
 <!-- Bootstrap Core CSS -->
 <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">

@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>AG Representations | Admin</title>
+    <title>AG Travel Representations | Admin</title>
 
     <!-- Scripts -->
     <!--<script src="{{ asset('/public/js/app.js') }}" defer></script>-->
