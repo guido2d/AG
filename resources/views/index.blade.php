@@ -268,7 +268,7 @@
                         <div class="col-md-8">
                             <input type="hidden" id="csrf" value="{{ csrf_token() }}">
                             <input type="email" name="email" id="email" class="form-control" placeholder="Ingrese su Email" style="margin-top:10px;">
-                            <small>Acepto las <a href="#" style="color: #089000;">políticas de seguridad</a>. <input type="checkbox" id="chkPoliticas" name="politicas" checked></small>
+                            <small>Acepto las <a href="/politicas-de-privacidad-de-datos" target="_blank" style="color: #089000;">políticas de seguridad</a>. <input type="checkbox" id="chkPoliticas" name="politicas" checked></small>
                         </div>
 
                         <div class="col-md-4">

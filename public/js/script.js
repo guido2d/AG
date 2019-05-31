@@ -86,5 +86,39 @@ Version      : 1.0
 		var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
 		doAnimations($animatingElems);
 	});
-	
+
+	$('#btnCookies').on('click', function(e){
+		var d = new Date();
+		d.setTime(d.getTime() + (24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = "politas-cookies=true; expires="+expires;
+		$('#politicas-cookies').fadeOut();
+	});
+
+	validarCookie();
+
 })(jQuery);	
+
+function validarCookie(){
+	var exists = getCookie('politas-cookies');
+	
+	if(!exists){
+		$('#politicas-cookies').fadeIn();
+	}
+}
+
+function getCookie(cname) {
+	var name = cname + "=";
+	var decodedCookie = decodeURIComponent(document.cookie);
+	var ca = decodedCookie.split(';');
+	for(var i = 0; i <ca.length; i++) {
+	  var c = ca[i];
+	  while (c.charAt(0) == ' ') {
+		c = c.substring(1);
+	  }
+	  if (c.indexOf(name) == 0) {
+		return c.substring(name.length, c.length);
+	  }
+	}
+	return false;
+  }

@@ -275,3 +275,32 @@
     border-top: 1px solid #eee;
     color: #666;
 }
+
+.footer-bottom .copyright a{
+    color: #999;
+}
+
+#politicas-cookies{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 1px 7px 10px 3px rgba(0,0,0,0.75);
+    padding: 15px;
+    z-index: 999999;
+    display: none;
+}
+
+#politicas-cookies p{
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+#politicas-cookies .btn-primary{
+    margin-top: 5px;
+    line-height: 20px;
+    padding: 6px 24px;
+    font-weight: 500;
+    opacity: 1;
+    font-size: 13px;
+}

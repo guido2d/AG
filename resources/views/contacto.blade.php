@@ -41,7 +41,7 @@
                 <div class="contact-info text-center wow fadeIn">
                     <i class="fa fa-map-marker"></i>
                     <h3>Dirección</h3>
-                    <p>Av. Cantabria 27 - 2B, CP 28042, Madrid</p>
+                    <p><a href="https://goo.gl/maps/sgPnmL1DWpguA3dP6" target="_blank">Av. Cantabria 27 - 2B, CP 28042, Madrid</a></p>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <input placeholder="Nombre completo" id="fname" class="form-control" name="fname" type="text" required data-error="Please enter your first name">
+                                <input placeholder="Nombre completo" id="nombre" class="form-control" name="fname" type="text" required data-error="Please enter your first name">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
@@ -71,9 +71,16 @@
                     </div>
                     
                     <div class="form-group">
-                        <textarea placeholder="Mensaje" id="message" cols="20" rows="8" class="form-control" required data-error="Please enter your comments"></textarea>
+                        <textarea placeholder="Mensaje" id="mensaje" cols="20" rows="8" class="form-control" required data-error="Please enter your comments"></textarea>
                         <div class="help-block with-errors"></div>
                     </div>
+
+                    <div class="form-group">
+                            <small>Por favor lea nustras <a href="/politicas-de-privacidad-de-datos" target="_blank" style="color: #089000;">Políticas de privacidad</a> y <a href="/aviso-legal" target="_blank" style="color: #089000;">Aviso legal</a>.</small>
+                            <br>
+                            <small>He leído y acepto <input type="checkbox" id="chkPoliticas" name="politicas" checked=""></small>
+                    </div>
+
                     <div class="text-center">
                         <input value="Enviar mensaje" name="submit" class="btn btn-primary" type="submit">
                         <div id="msgSubmit" class="hidden"></div>
@@ -87,4 +94,9 @@
 </section>
 <!-- end contact -->
 
+@endsection
+
+@section('js')
+<script src="{{ asset('js/notify.min.js') }}"></script>
+<script src="{{ asset('js/validateForm.js') }}"></script>
 @endsection

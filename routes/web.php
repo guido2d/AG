@@ -34,3 +34,8 @@ Route::post('/admin/blog/actualizar-noticia', 'HomeController@updateNews');
 // SUSCRIPTORES
 Route::get('/admin/suscriptores', 'SuscriptoresController@listSuscriptores');
 Route::get('/admin/suscriptores/descargar-listado', 'SuscriptoresController@descargarListado');
+
+// Politicas
+Route::view('/aviso-legal', 'politicas.aviso-legal');
+Route::view('/politicas-de-privacidad-de-datos', 'politicas.politicas-de-privacidad-de-datos');
+Route::view('/politica-de-cookies', 'politicas.politicas-cookies');

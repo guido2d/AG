@@ -1,3 +1,20 @@
+<!-- AVISO DE COOKIES -->
+<div id="politicas-cookies">
+    <div class="row">
+        <div class="col-lg-10 col-md-10 col-sm-12">
+            <p>
+                Esta página usa cookies para mejorar la experiencia del usuario. Asumiremos que estás de acuerdo con esto aunque puedes no estarlo si quieres.
+                <br>
+                <a href="/politica-de-cookies" target="_blank">Ver Política de Cookies</a>
+            </p>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-12">
+            <button id="btnCookies" class="btn btn-primary">Aceptar<button>
+        </div>
+    </div>
+</div>
+
+
 <footer id="footer">
     <div class="footer-top">
         <div class="container">
@@ -12,9 +29,9 @@
                     <div class="footer-widget">
                         <h3>Información de contacto</h3>
                         <ul>
-                            <li><i class="fa fa-send" aria-hidden="true"></i> Avenida Cantabria 27 - 2B, CP 28042, Madrid</li>
-                            <li><i class="fa fa-phone" aria-hidden="true"></i> +34 658 956 082</li>
-                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> info@agrepresentations.com</li>
+                            <li><i class="fa fa-send" aria-hidden="true"></i> <a href="https://goo.gl/maps/sgPnmL1DWpguA3dP6" target="_blank">Avenida Cantabria 27 - 2B, CP 28042, Madrid</a></li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:34658956082">+34 658 956 082</a></li>
+                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:info@agrepresentations.com">info@agrepresentations.com</a></li>
                             <li><i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp : +34 658 956 082</li>
                         </ul>
                     </div>
@@ -35,7 +52,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-6">
                     <div class="copyright">
-                        <p>&copy; 2019 AG Travel Representations | Aviso legal</p>
+                        <p>&copy; 2019 AG Travel Representations | <a href="/aviso-legal">Aviso legal</a></p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
