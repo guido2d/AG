@@ -8,6 +8,6 @@
 <script src="{{ asset('js/SmoothScroll.js') }}"></script>
 <script src="{{ asset('js/jquery.filterizr.min.js') }}"></script>
 <script src="{{ asset('js/sticky-kit.min.js') }}"></script>
-<script src="{{ asset('js/script.js') }}"></script>
+<script src="{{ asset('js/script.js?v=1') }}"></script>
 
 @yield('js')
